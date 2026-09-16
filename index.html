@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackFit</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+    <link rel="icon" href="assets/icons/icon-192.png" type="image/png">
+    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+</head>
+<body>
+    <header class="app-header">
+        <h1>Track<span class="brand-text-green">Fit</span></h1>
+        <div class="header-bar"></div>
+    </header>
+
+    <nav class="tab-nav">
+        <button onclick="switchTab('A')" id="tabA" class="tab-btn active-tab">Treino A</button>
+        <button onclick="switchTab('B')" id="tabB" class="tab-btn">Treino B</button>
+        <button onclick="switchTab('C')" id="tabC" class="tab-btn">Treino C</button>
+        <button onclick="switchTab('D')" id="tabD" class="tab-btn">Treino D</button>
+    </nav>
+
+    <div id="timerDisplay" class="timer-display" onclick="stopTimer()">
+        <span id="seconds" class="timer-seconds">00</span>
+        <span class="timer-label">PARAR</span>
+    </div>
+
+    <div id="confirmModal" class="modal-overlay">
+        <div class="modal-box">
+            <h2>Concluir este treino?</h2>
+            <p>O progresso das séries será limpo, mas suas cargas ficarão salvas.</p>
+            <div class="modal-actions">
+                <button onclick="resetAll()" class="btn-confirm">Concluir</button>
+                <button onclick="closeModal()" class="btn-cancel">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <main id="exerciseList" class="exercise-list">
+    </main>
+
+    <div class="finish-wrap">
+        <button onclick="confirmFinish()" class="btn-finish">Concluir Treino</button>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js');
+        }
+    </script>
+</body>
+</html>

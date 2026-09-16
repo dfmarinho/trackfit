@@ -1,0 +1,240 @@
+{
+  "faixas": {
+    "faixa1": { "min": 0, "max": 10, "step": 1 },
+    "faixa2": { "min": 0, "max": 100, "step": 5 },
+    "faixa3": { "min": 0, "max": 130, "step": 6.5 }
+  },
+  "A": {
+    "nome": "Peito + Costas",
+    "exercicios": [
+      {
+        "nome": "Supino Inclinado",
+        "series": 3,
+        "reps": "6-10",
+        "descanso": 180,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Remada Baixa Aberta",
+        "series": 3,
+        "reps": "8-12",
+        "descanso": 120,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Crucifixo",
+        "series": 2,
+        "reps": "10-15",
+        "descanso": 90,
+        "faixa": "faixa3"
+      },
+      {
+        "nome": "Puxador Frente",
+        "series": 3,
+        "reps": "8-12",
+        "descanso": 120,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Elevação Lateral",
+        "series": 3,
+        "reps": "10-15",
+        "descanso": 90,
+        "faixa": "faixa1"
+      },
+      {
+        "nome": "Rosca Alternada",
+        "series": 2,
+        "reps": "8-12",
+        "descanso": 90,
+        "faixa": "faixa1"
+      },
+      {
+        "nome": "Tríceps Corda",
+        "series": 2,
+        "reps": "10-15",
+        "descanso": 90,
+        "faixa": "faixa2"
+      }
+    ]
+  },
+
+  "B": {
+    "nome": "Pernas",
+    "exercicios": [
+      {
+        "nome": "Hack",
+        "series": 3,
+        "reps": "6-10",
+        "descanso": 180,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Mesa Flexora",
+        "series": 3,
+        "reps": "8-12",
+        "descanso": 120,
+        "faixa": "faixa3"
+      },
+      {
+        "nome": "Passada",
+        "series": 2,
+        "reps": "8-12",
+        "descanso": 120,
+        "faixa": "faixa1"
+      },
+      {
+        "nome": "Levantamento Terra Sumo",
+        "series": 3,
+        "reps": "6-10",
+        "descanso": 180,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Panturrilha Leg Horizontal",
+        "series": 3,
+        "reps": "10-15",
+        "descanso": 90,
+        "faixa": "faixa3"
+      },
+      {
+        "nome": "Abdominal Supra",
+        "series": 3,
+        "reps": "10-20",
+        "descanso": 60,
+        "core": true
+      }
+    ]
+  },
+
+  "C": {
+    "nome": "Costas + Braços",
+    "exercicios": [
+      {
+        "nome": "Supino Declinado",
+        "series": 3,
+        "reps": "6-10",
+        "descanso": 180,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Remada Baixa",
+        "series": 3,
+        "reps": "8-12",
+        "descanso": 120,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Pulldown",
+        "series": 3,
+        "reps": "8-12",
+        "descanso": 120,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Crucifixo Inverso",
+        "series": 3,
+        "reps": "10-15",
+        "descanso": 90,
+        "faixa": "faixa3"
+      },
+      {
+        "nome": "Remada Alta",
+        "series": 2,
+        "reps": "8-12",
+        "descanso": 90,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Rosca Scott",
+        "series": 2,
+        "reps": "8-12",
+        "descanso": 90,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Tríceps Testa",
+        "series": 2,
+        "reps": "8-12",
+        "descanso": 90,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Braço Articulado MultiArms",
+        "series": 2,
+        "reps": "8-12",
+        "descanso": 90,
+        "faixa": "faixa2"
+      }
+    ]
+  },
+
+  "D": {
+    "nome": "Pernas + Glúteos",
+    "exercicios": [
+      {
+        "nome": "Leg Press 45°",
+        "series": 3,
+        "reps": "8-12",
+        "descanso": 180,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Cadeira Extensora",
+        "series": 2,
+        "reps": "10-15",
+        "descanso": 90,
+        "faixa": "faixa3"
+      },
+      {
+        "nome": "Agachamento Búlgaro",
+        "series": 2,
+        "reps": "8-12",
+        "descanso": 120,
+        "faixa": "faixa1"
+      },
+      {
+        "nome": "Cadeira Flexora",
+        "series": 3,
+        "reps": "8-12",
+        "descanso": 120,
+        "faixa": "faixa3"
+      },
+      {
+        "nome": "Cadeira Abdutora",
+        "series": 2,
+        "reps": "10-15",
+        "descanso": 90,
+        "faixa": "faixa3"
+      },
+      {
+        "nome": "Banco Sóleo",
+        "series": 3,
+        "reps": "10-15",
+        "descanso": 90,
+        "faixa": "faixa2"
+      },
+      {
+        "nome": "Panturrilha Leg Horizontal",
+        "series": 2,
+        "reps": "10-15",
+        "descanso": 90,
+        "faixa": "faixa3"
+      },
+      {
+        "nome": "Abdominal Infra",
+        "series": 3,
+        "reps": "10-20",
+        "descanso": 60,
+        "core": true
+      },
+      {
+        "nome": "Superman",
+        "series": 2,
+        "reps": "10-15",
+        "descanso": 60,
+        "core": true
+      }
+    ]
+  }
+}
