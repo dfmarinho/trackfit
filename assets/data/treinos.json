@@ -1,7 +1,7 @@
 {
   "faixas": {
-    "faixa1": { "min": 0, "max": 10, "step": 1 },
-    "faixa2": { "min": 0, "max": 100, "step": 5 },
+    "faixa1": { "min": 0, "max": 20, "step": 1 },
+    "faixa2": { "min": 0, "max": 200, "step": 5 },
     "faixa3": { "min": 0, "max": 130, "step": 6.5 }
   },
   "A": {
@@ -11,14 +11,14 @@
         "nome": "Supino Inclinado",
         "series": 3,
         "reps": "6-10",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa2"
       },
       {
         "nome": "Remada Baixa Aberta",
         "series": 3,
         "reps": "8-12",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa2"
       },
       {
@@ -32,7 +32,7 @@
         "nome": "Puxador Frente",
         "series": 3,
         "reps": "8-12",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa2"
       },
       {
@@ -40,7 +40,7 @@
         "series": 3,
         "reps": "10-15",
         "descanso": 90,
-        "faixa": "faixa1"
+        "faixa": "faixa2"
       },
       {
         "nome": "Rosca Alternada",
@@ -66,28 +66,28 @@
         "nome": "Hack",
         "series": 3,
         "reps": "6-10",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa2"
       },
       {
         "nome": "Mesa Flexora",
         "series": 3,
         "reps": "8-12",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa3"
       },
       {
         "nome": "Passada",
         "series": 2,
         "reps": "8-12",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa1"
       },
       {
         "nome": "Levantamento Terra Sumo",
         "series": 3,
         "reps": "6-10",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa2"
       },
       {
@@ -103,6 +103,13 @@
         "reps": "10-20",
         "descanso": 60,
         "core": true
+      },
+      {
+        "nome": "Superman",
+        "series": 2,
+        "reps": "10-15",
+        "descanso": 60,
+        "core": true
       }
     ]
   },
@@ -114,21 +121,21 @@
         "nome": "Supino Declinado",
         "series": 3,
         "reps": "6-10",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa2"
       },
       {
         "nome": "Remada Baixa",
         "series": 3,
         "reps": "8-12",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa2"
       },
       {
         "nome": "Pulldown",
         "series": 3,
         "reps": "8-12",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa2"
       },
       {
@@ -140,13 +147,6 @@
       },
       {
         "nome": "Remada Alta",
-        "series": 2,
-        "reps": "8-12",
-        "descanso": 90,
-        "faixa": "faixa2"
-      },
-      {
-        "nome": "Rosca Scott",
         "series": 2,
         "reps": "8-12",
         "descanso": 90,
@@ -176,7 +176,7 @@
         "nome": "Leg Press 45°",
         "series": 3,
         "reps": "8-12",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa2"
       },
       {
@@ -190,14 +190,14 @@
         "nome": "Agachamento Búlgaro",
         "series": 2,
         "reps": "8-12",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa1"
       },
       {
         "nome": "Cadeira Flexora",
         "series": 3,
         "reps": "8-12",
-        "descanso": 120,
+        "descanso": 90,
         "faixa": "faixa3"
       },
       {
