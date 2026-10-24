@@ -5,7 +5,7 @@
     "faixa3": { "min": 0, "max": 130, "step": 6.5 }
   },
   "A": {
-    "nome": "Peito + Costas",
+    "nome": "Costas + Peito",
     "exercicios": [
       {
         "nome": "Supino Inclinado",
@@ -60,7 +60,7 @@
   },
 
   "B": {
-    "nome": "Pernas",
+    "nome": "Pernas + Glúteos",
     "exercicios": [
       {
         "nome": "Hack",
@@ -108,6 +108,13 @@
         "nome": "Superman",
         "series": 2,
         "reps": "10-15",
+        "descanso": 60,
+        "core": true
+      },
+      {
+        "nome": "Ponte de Glúteo",
+        "series": 3,
+        "reps": "10-20",
         "descanso": 60,
         "core": true
       }
@@ -187,11 +194,11 @@
         "faixa": "faixa3"
       },
       {
-        "nome": "Agachamento Búlgaro",
-        "series": 2,
-        "reps": "8-12",
+        "nome": "Levantamento Terra Sumo",
+        "series": 3,
+        "reps": "6-10",
         "descanso": 90,
-        "faixa": "faixa1"
+        "faixa": "faixa2"
       },
       {
         "nome": "Cadeira Flexora",
@@ -232,6 +239,13 @@
         "nome": "Superman",
         "series": 2,
         "reps": "10-15",
+        "descanso": 60,
+        "core": true
+      },
+      {
+        "nome": "Ponte de Glúteo",
+        "series": 3,
+        "reps": "10-20",
         "descanso": 60,
         "core": true
       }
